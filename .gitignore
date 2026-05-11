@@ -50,3 +50,4 @@ lib/models/
 lib/providers/
 lib/database/
 lib/firebase_options.dart
+android/app/google-services.json
