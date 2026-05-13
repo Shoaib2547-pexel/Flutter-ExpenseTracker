@@ -31,15 +31,15 @@ void main() async {
   } catch (e) {
     debugPrint("Firebase initialization error: $e");
   }
-  
+
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => AuthProvider()),
         ChangeNotifierProxyProvider<AuthProvider, TransactionProvider>(
           create: (context) => TransactionProvider(),
-          update: (context, auth, previous) => 
-            previous!..updateUserId(auth.user?.uid),
+          update: (context, auth, previous) =>
+              previous!..updateUserId(auth.user?.uid),
         ),
         ChangeNotifierProvider(create: (context) => SettingsProvider()),
       ],
