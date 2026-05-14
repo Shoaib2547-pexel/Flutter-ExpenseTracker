@@ -53,7 +53,6 @@ lib/screens/edit_expense_screen.dart
 lib/screens/main_screen.dart
 lib/screens/reports_screen.dart
 lib/screens/profile_screen.dart
-lib/screens/login_screen.dart
 lib/screens/register_screen.dart
 
 
