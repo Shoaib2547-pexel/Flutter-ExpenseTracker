@@ -56,7 +56,7 @@ lib/screens/profile_screen.dart
 lib/screens/login_screen.dart
 lib/screens/register_screen.dart
 
-lib/models/
+
 lib/providers/
 lib/database/
 android/app/google-services.json
