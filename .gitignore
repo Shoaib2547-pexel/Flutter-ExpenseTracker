@@ -45,13 +45,12 @@ app.*.map.json
 /android/app/release
 
 
-lib/screens/add_expense_screen.dart
 lib/screens/add_income_screen.dart
 lib/screens/edit_income_screen.dart
 lib/screens/edit_expense_screen.dart
-lib/screens/reports_screen.dart
+lib/screens/login_screen.dart
+lib/screens/splash_screen.dart
 lib/screens/profile_screen.dart
-lib/screens/register_screen.dart
 lib/firebase_options.dart
 
 
